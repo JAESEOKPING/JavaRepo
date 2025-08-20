@@ -2,9 +2,8 @@ package mylab.bank.entity;
 
 import mylab.bank.exception.*;
 
-/**
- * 저축 계좌를 표현하는 클래스 (Account 클래스 상속)
- */
+// 저축 계좌를 표현하는 클래스 (Account 클래스 상속)
+
 public class SavingsAccount extends Account {
 
     private double interestRate;    // 이자율
